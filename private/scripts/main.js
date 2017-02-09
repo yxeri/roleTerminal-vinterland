@@ -193,76 +193,76 @@ socketManager.addEvents([
 
 messenger.addMessages({
   messages: [{
-    time: new Date(2013, 6, 21, 23, 21, 0),
+    time: new Date(2013, 5, 21, 23, 21, 0),
     text: ['Ryssland har invaderat. Explosioner i Stockholm, Göteborg, Malmö, Köpenhamn. Kommunikationsinfrastrukturen skadad. Totalförsvaret mobiliserat.'],
     userName: 'Centralen',
   }, {
-    time: new Date(2013, 6, 22, 0, 2, 0),
+    time: new Date(2013, 5, 22, 0, 2, 0),
     text: ['Kärnvapenexplosioner bekräftade i Stockholm, Göteborg, Malmö, Köpenhamn.'],
     userName: 'Centralen',
   }, {
-    time: new Date(2013, 6, 26, 10, 0, 5),
+    time: new Date(2013, 5, 26, 10, 0, 5),
     text: ['Uppsamlingsläger etablerade runt drabbade städer.'],
     userName: 'Centralen',
   }, {
-    time: new Date(2014, 4, 14, 0, 0, 0),
+    time: new Date(2014, 3, 14, 0, 0, 0),
     text: ['Tidfunktion trasig i systemet. Har ej tillgång till tekniker. Tappat kontakt med andra centraler.'],
     userName: 'Centralen',
   }, {
-    time: new Date(2015, 6, 7, 0, 0, 0),
+    time: new Date(2015, 5, 7, 0, 0, 0),
     text: ['Är någon kvar där ute?'],
     userName: 'Centralen',
   }, {
-    time: new Date(2015, 11, 29, 0, 0, 0),
+    time: new Date(2015, 10, 29, 0, 0, 0),
     text: ['Kontakt med uppsamlingslägrena fortfarande bruten. Ingen kontakt med militära styrkor. Ingen kontakt med civila grupper.'],
     userName: 'Centralen',
   }, {
-    time: new Date(2016, 1, 5, 0, 0, 0),
+    time: new Date(2016, 0, 5, 0, 0, 0),
     text: ['PRIORITERAT MEDDELANDE. Spridning av dödlig sjukdom. Leder till feber, utslag under armarna, hosta. Rekommendation: undvik större grupperingar. Undvik kontakt med personer som uppvisar dessa symptom.'],
     userName: 'Centralen',
   }, {
-    time: new Date(2016, 1, 7, 0, 0, 0),
+    time: new Date(2016, 0, 7, 0, 0, 0),
     text: ['Centralen är inte längre säker. Vi kommer att flytta till punkt 72C.'],
     userName: 'Centralen',
   }, {
-    time: new Date(2016, 1, 10, 0, 0, 0),
+    time: new Date(2016, 0, 10, 0, 0, 0),
     text: ['omlokaliseringen misslyckades'],
     userName: 'Centralen',
   }, {
-    time: new Date(2016, 1, 16, 0, 0, 0),
+    time: new Date(2016, 0, 16, 0, 0, 0),
     text: ['rosen ärröd oh nu är jag ddöd'],
     userName: 'Centralen',
   }, {
-    time: new Date(2016, 1, 24, 0, 0, 0),
+    time: new Date(2016, 0, 24, 0, 0, 0),
     text: ['HUVUDCENTRALEN HAR VARIT INAKTIV I 5 DAGAR. DETTA ÄR ETT AUTOMATISERAT MEDDELANDE'],
     userName: 'Centralen',
   }, {
-    time: new Date(2016, 11, 14, 0, 0, 0),
+    time: new Date(2016, 10, 14, 0, 0, 0),
     text: ['HUVUDCENTRALEN HAR VARIT INAKTIV I 300 DAGAR. DETTA ÄR ETT AUTOMATISERAT MEDDELANDE. DETTA ÄR ETT SLUTGILTIGT MEDDELANDE. CENTRALEN ÄR INAKTIV'],
     userName: 'Centralen',
   }, {
-    time: new Date(2044, 8, 10, 0, 0, 0),
-    text: ['test test'],
-    userName: 'OKÄND SÄNDARE',
-  }, {
-    time: new Date(2044, 8, 10, 0, 0, 0),
-    text: ['trst test med namn'],
-    userName: 'Värnhem',
-  }, {
-    time: new Date(2044, 8, 10, 0, 0, 0),
-    text: ['Östbacken inkopplade. Tiden fungerar inte'],
+    time: new Date(2028, 2, 3, 12, 10, 6),
+    text: ['Test Test'],
     userName: 'Östbacken',
   }, {
-    time: new Date(2044, 9, 30, 12, 7, 0),
-    text: ['Rifall är inkopplat. Jag fick igång tidstämpeln och har lyckats hämta några gamla meddelanden från "Centralen"'],
-    userName: 'Rifall',
-  }, {
-    time: new Date(2044, 9, 30, 19, 0, 17),
-    text: ['det här gjoirde vi bra'],
+    time: new Date(2028, 2, 3, 12, 10, 7),
+    text: ['vi hör er. det fungerar'],
     userName: 'Värnhem',
   }, {
-    time: new Date(2045, 2, 9, 10, 30, 6),
-    text: ['Ledningen till Rifall är lagad, igen.'],
+    time: new Date(2028, 2, 3, 12, 10, 8),
+    text: ['Vi lyckades!'],
+    userName: 'Rifall',
+  }, {
+    time: new Date(2042, 6, 4, 8, 0, 3),
+    text: ['Årtiondets största gräv!', 'Rekordmånga grävarlag har begivit sig av mot trakterna av Ånge, och ryktena är entydiga. En enorm fyndighet av resurser kommer kanske att lokaliseras.'],
+    userName: 'Östbacken',
+  }, {
+    time: new Date(2044, 1, 9, 8, 0, 3),
+    text: ['Gula Stjärnan expanderar', 'Matvaror märkta med Gula Stjärnan har börjat säljas även på Hindersmäss. De produceras i Nystad på Öland.'],
+    userName: 'Östbacken',
+  }, {
+    time: new Date(2045, 1, 5, 10, 30, 6),
+    text: ['Statusrapport', 'Systemet är igång igen. Många gamla meddelanden har tappats och kommer att behöva återskapas från pappersarkivet.'],
     userName: 'Rifall',
   }],
   options: { printable: false },
