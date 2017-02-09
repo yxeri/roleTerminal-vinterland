@@ -218,7 +218,7 @@ messenger.addMessages({
     userName: 'Centralen',
   }, {
     time: new Date(2016, 0, 5, 0, 0, 0),
-    text: ['PRIORITERAT MEDDELANDE. Spridning av dödlig sjukdom. Leder till feber, utslag under armarna, hosta. Rekommendation: undvik större grupperingar. Undvik kontakt med personer som uppvisar dessa symptom.'],
+    text: ['PRIORITERAT MEDDELANDE', 'Spridning av dödlig sjukdom. Leder till feber, utslag under armarna, hosta. Rekommendation: undvik större grupperingar. Undvik kontakt med personer som uppvisar dessa symptom.'],
     userName: 'Centralen',
   }, {
     time: new Date(2016, 0, 7, 0, 0, 0),
@@ -234,12 +234,12 @@ messenger.addMessages({
     userName: 'Centralen',
   }, {
     time: new Date(2016, 0, 24, 0, 0, 0),
-    text: ['HUVUDCENTRALEN HAR VARIT INAKTIV I 5 DAGAR. DETTA ÄR ETT AUTOMATISERAT MEDDELANDE'],
-    userName: 'Centralen',
+    text: ['NOTIFIKATION', 'HUVUDCENTRALEN HAR VARIT INAKTIV I 5 DAGAR. DETTA ÄR ETT AUTOMATISERAT MEDDELANDE'],
+    userName: 'System',
   }, {
     time: new Date(2016, 10, 14, 0, 0, 0),
-    text: ['HUVUDCENTRALEN HAR VARIT INAKTIV I 300 DAGAR. DETTA ÄR ETT AUTOMATISERAT MEDDELANDE. DETTA ÄR ETT SLUTGILTIGT MEDDELANDE. CENTRALEN ÄR INAKTIV'],
-    userName: 'Centralen',
+    text: ['NOTIFIKATION', 'HUVUDCENTRALEN HAR VARIT INAKTIV I 300 DAGAR. DETTA ÄR ETT AUTOMATISERAT MEDDELANDE. DETTA ÄR ETT SLUTGILTIGT MEDDELANDE. CENTRALEN ÄR INAKTIV'],
+    userName: 'System',
   }, {
     time: new Date(2028, 2, 3, 12, 10, 6),
     text: ['Test Test'],
@@ -261,9 +261,9 @@ messenger.addMessages({
     text: ['Gula Stjärnan expanderar', 'Matvaror märkta med Gula Stjärnan har börjat säljas även på Hindersmäss. De produceras i Nystad på Öland.'],
     userName: 'Östbacken',
   }, {
-    time: new Date(2045, 1, 5, 10, 30, 6),
-    text: ['Statusrapport', 'Systemet är igång igen. Många gamla meddelanden har tappats och kommer att behöva återskapas från pappersarkivet.'],
-    userName: 'Rifall',
+    time: new Date(2044, 10, 28, 23, 47, 0),
+    text: ['NOTIFIKATION', 'KOMMUNIKATIONSLÄNKEN HAR VARIT INAKTIV I 1 DAGAR. DETTA ÄR ETT AUTOMATISERAT MEDDELANDE'],
+    userName: 'System',
   }],
   options: { printable: false },
   shouldScroll: true,
