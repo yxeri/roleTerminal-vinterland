@@ -14,6 +14,8 @@
  limitations under the License.
  */
 
+const storage = require('./storage');
+
 /**
  * Characters used when generating random text
  * Removed l and i to decrease user errors when reading the random strings
@@ -60,6 +62,7 @@ function beautifyNumber(number) {
  * @returns {Object} Human-readable time and date
  */
 function generateTimeStamp({ date, offset }) {
+  const yearModification = parseInt(storage.getLocalVal('yearModification'), 10);
   const newDate = new Date(date);
   const timeStamp = {};
 
@@ -72,7 +75,7 @@ function generateTimeStamp({ date, offset }) {
   timeStamp.seconds = beautifyNumber(newDate.getSeconds());
   timeStamp.month = beautifyNumber(newDate.getMonth() + 1);
   timeStamp.day = beautifyNumber(newDate.getDate());
-  timeStamp.year = newDate.getFullYear();
+  timeStamp.year = newDate.getFullYear() + yearModification;
   timeStamp.halfTime = `${timeStamp.hours}:${timeStamp.mins}`;
   timeStamp.fullTime = `${timeStamp.halfTime}:${timeStamp.seconds}`;
   timeStamp.halfDate = `${timeStamp.day}/${timeStamp.month}`;

@@ -29,11 +29,6 @@ class Time {
    */
   updateTime() {
     const date = new Date();
-    const yearModification = parseInt(storage.getLocalVal('yearModification'), 10);
-
-    if (!isNaN(yearModification)) {
-      date.setFullYear(date.getFullYear() + yearModification);
-    }
 
     if (date.getSeconds() > 59) {
       date.setMinutes(date.getMinutes() + 1);
