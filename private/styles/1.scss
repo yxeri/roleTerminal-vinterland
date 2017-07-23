@@ -92,6 +92,7 @@ input {
 
 textarea {
   background-color: $back-input;
+  color: $text-color;
   border: $border solid $second-color;
   outline: 1px solid;
   resize: none;
