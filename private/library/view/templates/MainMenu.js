@@ -108,15 +108,17 @@ class MainMenu extends View {
     logoutRow.lastChild.appendChild(document.createTextNode('Logga ut'));
     logoutRow.classList.add('hide');
     logoutRow.addEventListener('click', () => {
-      storage.removeUser();
-      aliasRow.classList.add('hide');
-      new LoginBox({
-        description: ['Endast för Krismyndigheten och Försvarsmakten'],
-        extraDescription: ['Skriv in ert användarnamn och lösenord'],
-        parentElement,
-        socketManager,
-        keyHandler,
-      }).appendTo(parentElement);
+      socketManager.emitEvent('logout', {}, () => {
+        storage.removeUser();
+        aliasRow.classList.add('hide');
+        new LoginBox({
+          description: ['Endast för Krismyndigheten och Försvarsmakten'],
+          extraDescription: ['Skriv in ert användarnamn och lösenord'],
+          parentElement,
+          socketManager,
+          keyHandler,
+        }).appendTo(parentElement);
+      });
     });
     this.accessElements.push({
       element: logoutRow,
